@@ -2,19 +2,43 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
     <title>DeadTime 💀⏳</title>
   </head>
   <body>
-    <h1>DeadTime!</h1>
-    <p>💀⏳</p>
+
+    <div id="settings-button-section"><p><button type="button">Settings</button></p></div>
+    
+    <div id="minute-section" class="content">
+      <p><label for="minute-progress">Minute</label>
+      <progress id="minute-progress" value="10" max="100"> 10% </progress></p>
+    </div>
+
+    <div id="hour-section" class="content">
+      <p><label for="hour-progress">Hour</label>
+      <progress id="hour-progress" value="10" max="100">  </progress></p>
+    </div>
+    
+    <div id="day-section" class="content">
+      <p><label for="day-progress">Day</label>
+      <progress id="day-progress" value="10" max="100">  </progress></p>
+    </div>
+    
+    <div id="week-section" class="content">
+      <p><label for="week-progress">Week</label>
+      <progress id="week-progress" value="10" max="100">  </progress></p>
+    </div>
+    
+    <div id="year-section" class="content">
+      <p><label for="year-progress">Year</label>
+      <progress id="minute-progress" value="10" max="100">  </progress></p>
+    </div>
+    
+    <div id="life-section" class="content">
+      <p><label for="life-progress">Your Life</label>
+      <progress id="life-progress" value="10" max="100">  </progress></p>
+    </div>
+    
+    <div id="collapse-button-section"><p><button class="collapsible">Expand/Collapse</button></p></div>
+    
   </body>
 </html>
