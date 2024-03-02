@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DeadTime 💀⏳</title>
+    <link rel="stylesheet" href="../../style/additional-styles-settings.css">
+  </head>
+  <body>
+
+    <div id="back-button-section"><p><button type="button">Back</button></p></div>
+
+    <div id="collapse-settings" class="dropdown-check-list" tabindex="100">
+        <label for="collapse-drop-down">Collapse Button Settings</label>
+        <span id="collapse-drop-down" class="anchor">Select Progress Bars to Collapse</span>
+        <ul class="items">
+            <li><input type="checkbox" />Minute Progress</li>
+            <li><input type="checkbox" />Hour Progress</li>
+            <li><input type="checkbox" />Day Progress</li>
+            <li><input type="checkbox" />Week Progress</li>
+            <li><input type="checkbox" />Year Progress</li>
+            <li><input type="checkbox" />Life Progress</li>
+        </ul>
+    </div>
+
+    <div id="detail-settings" class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <span>Percent</span>
+            <span>Ratio</span>
+            <span>Percent & Ratio</span>
+        </div>
+    </div>
+
+    <div id="notification-settings"><p></p></div>
+
+    <div id="data-settings"><p></p></div>
+    
+  </body>
+  <script src="../../src/renderer/settings-rederer.js"></script>
+</html>
